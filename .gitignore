@@ -1,0 +1,9 @@
+/bin/
+*.class
+/nbproject/
+.settings
+.csettings
+.project
+.cproject
+.classpath
+*.jar
