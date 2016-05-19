@@ -1,0 +1,11 @@
+<ivy-module version="2.0" xmlns:extra="http://ant.apache.org/ivy/extra">
+	<info organisation="org.apache" module="reactive" />
+	<dependencies>
+		<dependency org="org.lwjgl" name="lwjgl" rev="3.0.0b" conf="default" />
+		<dependency org="org.lwjgl" name="lwjgl-platform" rev="3.0.0b">
+			<artifact name="lwjgl-platform" type="jar" extra:classifier="natives-linux" />
+			<artifact name="lwjgl-platform" type="jar" extra:classifier="natives-osx" />
+			<artifact name="lwjgl-platform" type="jar" extra:classifier="natives-windows" />
+		</dependency>
+	</dependencies>
+</ivy-module>
